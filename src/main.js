@@ -37,7 +37,7 @@ const recipe_image = document.querySelector(".recipe-image");
 document.getElementById("getRecipeBtn").addEventListener("click", onRandomRecipe);
 
 // random number generator for to call for array of recipes
-let randomRecipeNumber = Math.floor(Math.random() * recipe.length);
+let randomRecipeNumber = Math.floor(Math.random() * recipe_list.length);
 
 console.log(randomRecipeNumber);
 
